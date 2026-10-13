@@ -1,31 +1,62 @@
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     height: 70px;
     justify-content: space-between;
     gap: 10px;
-    /* border: 1px solid wheat; */
     background-color: black;
-    
-    
-    
-    a{
-        border: 1px solid black;
-        width: 300px;
-        border-radius: 20px;
-        font-size: 30px;
-        text-align: center;
-        padding: 5px 0px;
-        text-transform: capitalize;
-        text-decoration: none;
-        align-items: center;
-        justify-content: space-evenly;
-        background-color: black;
-        color: antiquewhite;
-        
+}
+
+.navbar a {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.navbar a:hover {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+/* Mobile responsive navbar */
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+        min-height: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 10px;
     }
-    a:hover{
-        background-color: blueviolet;
-        color: antiquewhite;
+
+    .navbar a {
+        width: auto;
+        max-width: 100%;
+        font-size: 15px;
+        padding: 8px 12px;
+        border-radius: 15px;
+    }
+}
+
+/* Small mobile phones */
+@media screen and (max-width: 480px) {
+    .navbar {
+        gap: 5px;
+        padding: 8px 5px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+        padding: 7px 8px;
     }
 }

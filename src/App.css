@@ -1,9 +1,43 @@
-*{
-    margin: 0%;
-    padding: 0%
-    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.app-container{
+
+.app-container {
     background-color: black;
     color: white;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Responsive image sizing */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile screens */
+@media screen and (max-width: 768px) {
+    html,
+    body,
+    #root {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .app-container {
+        width: 100%;
+        min-height: 100vh;
+    }
+}
+
+/* Small mobile screens */
+@media screen and (max-width: 480px) {
+    .app-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
