@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    gap: 10px;
+    /* border: 1px solid wheat; */
+    background-color: black;
+    
+    
+    
+    a{
+        border: 1px solid black;
+        width: 300px;
+        border-radius: 20px;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px 0px;
+        text-transform: capitalize;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+        color: antiquewhite;
+        
+    }
+    a:hover{
+        background-color: blueviolet;
+        color: antiquewhite;
+    }
+}

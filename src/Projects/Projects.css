@@ -1,0 +1,29 @@
+
+.projects {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  line-height: 2.0;
+  color: skyblue;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: lightsalmon;
+}
+
+.projects p {
+  font-size: 23px;
+  margin-bottom: 19px;
+  color: lightgreen
+}
+
+.projects-details {
+  margin-top: 25px;
+  color: lightsalmon;
+}
+
+.projects-details p {
+  margin-bottom: 10px;
+}

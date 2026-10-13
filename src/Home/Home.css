@@ -1,0 +1,64 @@
+.home{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    .container{
+        display: flex;
+        .element{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            width: 500px;
+            margin: 25px;
+            text-transform: capitalize;
+            font-size: 30px;
+            h3{
+                color: aqua;
+            }
+            h1{
+                font-size: 35px;
+                color:lightsalmon
+            }
+            p{
+                color: lightskyblue;
+                font-size: 25px;
+            }
+            .icons{
+    
+                .btn{
+                    button{
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        border: 1px solid aqua;
+                        border-radius: 10px;
+                        width: 150px;
+                        font-size: 25px;
+                        background-color: lightseagreen;
+                        color: black;
+                    }
+                    button:hover{
+                        background-color: green;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+
+            border: 1px solid black;
+            width: 310px;
+            height: 350px;
+            border-radius: 50%;
+            object-fit: cover;
+
+        }
+    }
+}
